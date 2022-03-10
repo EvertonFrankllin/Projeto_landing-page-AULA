@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Noto Serif', serif;;
+}
+.center{
+    width: 1280px;
+    margin: 0 auto;
+}
+.heard img{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.heard{
+    width: 100%;
+    height: 71px;
+    background-color: rgb(54, 58, 109);
+}
+.container-banner{
+    width: 100%;
+    height: 600px;
+    background-image: url('../imagens/header_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.container-banner > .center{
+    height: 100%;
+}
+.form{
+    border: solid 5px gray;
+    width: 450px;
+    height: calc(100% + 40px);
+    position: relative;
+    top: -20px;
+   /* float: right;*/
+    margin-left: 80%;
+    background-color: white;
+}
+.form  h2{
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    color:#ccc;
+}
+.form input{
+    padding: 10px 10px 30px 10px;
+    border-color: #ccc;
+    margin-left: 20px;
+    width: 370px;
+    height: 60px;
+}
+input:focus{
+    outline: 0;
+}
+
+.form  p{
+    font-size: 25px;
+    color: #ccc;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+button{
+    cursor: pointer;
+    margin: 60px 50px 10px 60px;
+    font-size: 35px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    width: 320px;
+    height: 70px;
+    background-color: rgb(54, 58, 109);
+}
+/*
+.box-shandaw{
+    display: inline;
+    margin: 100px 0 0 50px;
+    background-color:rgb(54, 58, 109) ;
+}
+*/
